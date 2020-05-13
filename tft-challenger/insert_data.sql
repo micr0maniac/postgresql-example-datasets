@@ -1,0 +1,1 @@
+COPY player_game FROM '/var/tft_challenger.csv' CSV QUOTE e'\x01' DELIMITER ';' HEADER;

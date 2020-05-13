@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  db:
+    build: .
+    restart: always
+    ports:
+      - 3333:5432
+    environment:
+      POSTGRES_PASSWORD: example

@@ -1,0 +1,1 @@
+COPY avocado FROM '/var/avocado.csv' CSV HEADER;
